@@ -47,8 +47,6 @@ const Skill = (skill) => {
           <SiRedux size="9rem" color="#5300c7" />
           <p>more</p>
         </div>
-      </div>
-      <div className="card-container">
         <div className="card" onClick={() => showSkillCardHandler(SKILLS[5])}>
           <SiTypescript size="9rem" color="#005dc7" />
           <p>more</p>
@@ -62,6 +60,7 @@ const Skill = (skill) => {
           <p>more</p>
         </div>
       </div>
+
       {showSkillCard && (
         <SkillCard
           closeSkillCard={closeSkillCardHandler}
